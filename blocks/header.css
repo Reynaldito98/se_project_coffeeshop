@@ -1,5 +1,3 @@
-@import url(nav.css);
-
 .header{
   background-color: #ffffff;
   background-image: url(../images/background_header.svg);
@@ -19,6 +17,7 @@
 .header__title{
   margin-top: 183px;
   margin-left: 50px;
+  margin-bottom: 0;
   max-width: 729px;
   font-weight: 500;
   font-size: 60px;
@@ -30,7 +29,8 @@
   margin-top: 28px;
   max-width: 683px;
   margin-left: 50px;
-  font-family: "Noto Serif";
+  margin-bottom: 0;
+  font-family: "Noto Serif", 'Times New Roman';
   font-size: 20px;
   line-height: 30px;
   padding: 0;
@@ -65,7 +65,7 @@
 
 .header__span-accent{
   display: block;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", 'Times New Roman';
   font-style: italic;
   font-size: 60px;
   line-height: 72px;

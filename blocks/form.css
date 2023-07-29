@@ -4,7 +4,7 @@
 
 .form__label{
   margin-bottom: 8px;
-  font-family: Inter;
+  font-family: 'Inter', Arial;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -34,24 +34,27 @@
   height: 60px;
   width: 385px;
   padding-left: 10px;
+  border: 1px solid #838383;
+  box-sizing: border-box;
 }
 
 .form__input::placeholder{
-  font-family: Inter;
+  font-family: 'Inter', Arial;
   font-size: 20px;
   line-height: 30px;
   color: #838383;
 }
 
-.form__input[type="checkbox"]{
+.form__checkbox{
   width: 20px;
   height: 20px;
   display: inline-block;
   margin-top: 32px;
   margin-bottom: 0px;
+  border-radius: 2px;
 }
 
-.form__label[for="checkbox"]{
+.form__label_checkbox{
   margin-top: 32px;
   margin-bottom: 0px;
 }
